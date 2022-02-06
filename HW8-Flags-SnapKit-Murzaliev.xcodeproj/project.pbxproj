@@ -13,9 +13,17 @@
 		DD06931527AFF75800870164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD06931327AFF75800870164 /* Main.storyboard */; };
 		DD06931727AFF75900870164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD06931627AFF75900870164 /* Assets.xcassets */; };
 		DD06931A27AFF75900870164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD06931827AFF75900870164 /* LaunchScreen.storyboard */; };
+		DD06932227AFF7D400870164 /* FirstTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD06932127AFF7D400870164 /* FirstTaskVC.swift */; };
+		DD06932427AFF7FF00870164 /* SecondTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD06932327AFF7FF00870164 /* SecondTaskVC.swift */; };
+		DD06932627AFF84400870164 /* ThirdTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD06932527AFF84400870164 /* ThirdTaskVC.swift */; };
+		DD06932827AFF88100870164 /* FourthTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD06932727AFF88100870164 /* FourthTaskVC.swift */; };
+		F08D30C95B084425F37B7A12 /* Pods_HW8_Flags_SnapKit_Murzaliev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67156B160C9DD36276608B0 /* Pods_HW8_Flags_SnapKit_Murzaliev.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EF012C885C2314315F33AC2 /* Pods-HW8-Flags-SnapKit-Murzaliev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW8-Flags-SnapKit-Murzaliev.release.xcconfig"; path = "Target Support Files/Pods-HW8-Flags-SnapKit-Murzaliev/Pods-HW8-Flags-SnapKit-Murzaliev.release.xcconfig"; sourceTree = "<group>"; };
+		4987FB891DD2C8DB2E7CC67E /* Pods-HW8-Flags-SnapKit-Murzaliev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW8-Flags-SnapKit-Murzaliev.debug.xcconfig"; path = "Target Support Files/Pods-HW8-Flags-SnapKit-Murzaliev/Pods-HW8-Flags-SnapKit-Murzaliev.debug.xcconfig"; sourceTree = "<group>"; };
+		C67156B160C9DD36276608B0 /* Pods_HW8_Flags_SnapKit_Murzaliev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW8_Flags_SnapKit_Murzaliev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD06930A27AFF75800870164 /* HW8-Flags-SnapKit-Murzaliev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW8-Flags-SnapKit-Murzaliev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD06930D27AFF75800870164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD06930F27AFF75800870164 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		DD06931627AFF75900870164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD06931927AFF75900870164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD06931B27AFF75900870164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD06932127AFF7D400870164 /* FirstTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTaskVC.swift; sourceTree = "<group>"; };
+		DD06932327AFF7FF00870164 /* SecondTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTaskVC.swift; sourceTree = "<group>"; };
+		DD06932527AFF84400870164 /* ThirdTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTaskVC.swift; sourceTree = "<group>"; };
+		DD06932727AFF88100870164 /* FourthTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTaskVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08D30C95B084425F37B7A12 /* Pods_HW8_Flags_SnapKit_Murzaliev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EDE809B6FBE5ACEA4E58FF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4987FB891DD2C8DB2E7CC67E /* Pods-HW8-Flags-SnapKit-Murzaliev.debug.xcconfig */,
+				0EF012C885C2314315F33AC2 /* Pods-HW8-Flags-SnapKit-Murzaliev.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDE248BB258B60BAF4C3A0DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C67156B160C9DD36276608B0 /* Pods_HW8_Flags_SnapKit_Murzaliev.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD06930127AFF75800870164 = {
 			isa = PBXGroup;
 			children = (
 				DD06930C27AFF75800870164 /* HW8-Flags-SnapKit-Murzaliev */,
 				DD06930B27AFF75800870164 /* Products */,
+				1EDE809B6FBE5ACEA4E58FF4 /* Pods */,
+				CDE248BB258B60BAF4C3A0DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +91,10 @@
 				DD06930D27AFF75800870164 /* AppDelegate.swift */,
 				DD06930F27AFF75800870164 /* SceneDelegate.swift */,
 				DD06931127AFF75800870164 /* ViewController.swift */,
+				DD06932127AFF7D400870164 /* FirstTaskVC.swift */,
+				DD06932327AFF7FF00870164 /* SecondTaskVC.swift */,
+				DD06932527AFF84400870164 /* ThirdTaskVC.swift */,
+				DD06932727AFF88100870164 /* FourthTaskVC.swift */,
 				DD06931327AFF75800870164 /* Main.storyboard */,
 				DD06931627AFF75900870164 /* Assets.xcassets */,
 				DD06931827AFF75900870164 /* LaunchScreen.storyboard */,
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD06931E27AFF75900870164 /* Build configuration list for PBXNativeTarget "HW8-Flags-SnapKit-Murzaliev" */;
 			buildPhases = (
+				79B2C0F3FCE75F2E9FFCF99D /* [CP] Check Pods Manifest.lock */,
 				DD06930627AFF75800870164 /* Sources */,
 				DD06930727AFF75800870164 /* Frameworks */,
 				DD06930827AFF75800870164 /* Resources */,
+				F787E482F20DFA85D76BE515 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +171,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79B2C0F3FCE75F2E9FFCF99D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HW8-Flags-SnapKit-Murzaliev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F787E482F20DFA85D76BE515 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW8-Flags-SnapKit-Murzaliev/Pods-HW8-Flags-SnapKit-Murzaliev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HW8-Flags-SnapKit-Murzaliev/Pods-HW8-Flags-SnapKit-Murzaliev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HW8-Flags-SnapKit-Murzaliev/Pods-HW8-Flags-SnapKit-Murzaliev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD06930627AFF75800870164 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD06932427AFF7FF00870164 /* SecondTaskVC.swift in Sources */,
+				DD06932627AFF84400870164 /* ThirdTaskVC.swift in Sources */,
+				DD06932827AFF88100870164 /* FourthTaskVC.swift in Sources */,
+				DD06932227AFF7D400870164 /* FirstTaskVC.swift in Sources */,
 				DD06931227AFF75800870164 /* ViewController.swift in Sources */,
 				DD06930E27AFF75800870164 /* AppDelegate.swift in Sources */,
 				DD06931027AFF75800870164 /* SceneDelegate.swift in Sources */,
@@ -284,6 +368,7 @@
 		};
 		DD06931F27AFF75900870164 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4987FB891DD2C8DB2E7CC67E /* Pods-HW8-Flags-SnapKit-Murzaliev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +397,7 @@
 		};
 		DD06932027AFF75900870164 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF012C885C2314315F33AC2 /* Pods-HW8-Flags-SnapKit-Murzaliev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
